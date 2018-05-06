@@ -6,4 +6,4 @@ This is a basic Webpack 4 and fabricJS 2 setup to verify that everything works.
 With everything works we cover:
 
  - Installing in a system where node-canvas installation fails
- - Webpack does not bundle xmldom and jsdom
+ - Webpack does not bundle xmldom and jsdom in the output

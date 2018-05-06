@@ -18,14 +18,15 @@
   },
   "license": "MIT",
   "scripts": {
-    "build": "node build.js modules=ALL requirejs exclude=gestures,accessors"
+    "build": "webpack --config webpack.config.js"
   },
   "devDependencies": {
+    "fabric": "^2.2.3",
     "webpack": "^4.7.0",
-    "fabric": "^2.2.3"
+    "webpack-cli": "^2.1.2"
   },
   "engines": {
     "node": ">=4.0.0"
   },
-  "main": "./dist/bundle.js",
+  "main": "./dist/bundle.js"
 }

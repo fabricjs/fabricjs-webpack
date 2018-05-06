@@ -4,7 +4,7 @@ services:
   - docker
 
 node_js:
-  - "10"
+  - "4"
 
 cache:
   directories:

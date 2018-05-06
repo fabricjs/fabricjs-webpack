@@ -22,8 +22,7 @@
   },
   "devDependencies": {
     "fabric": "^2.2.3",
-    "webpack": "^4.7.0",
-    "webpack-cli": "^2.1.2"
+    "webpack": "^3.0.0"
   },
   "engines": {
     "node": ">=4.0.0"

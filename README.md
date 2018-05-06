@@ -1,4 +1,6 @@
-[![Build Status](https://secure.travis-ci.org/fabricjs/fabricjs-webpack.svg?branch=master)](http://travis-ci.org/#!/fabricjs/fabricjs-webpack)
+master: [![Build Status](https://secure.travis-ci.org/fabricjs/fabricjs-webpack.svg?branch=master)](http://travis-ci.org/#!/fabricjs/fabricjs-webpack)
+
+node4 + webpack3: [![Build Status](https://secure.travis-ci.org/fabricjs/fabricjs-webpack.svg?branch=webpack3-node4)](http://travis-ci.org/#!/fabricjs/fabricjs-webpack)
 
 # fabricjs-webpack
 

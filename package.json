@@ -1,0 +1,31 @@
+{
+  "name": "fabric-webpack-example",
+  "description": "Example of using fabricJS with webpack",
+  "homepage": "http://fabricjs.com/",
+  "version": "0.01",
+  "author": "Andrea Bogazzi <andreabogazzi79@gmail.com>",
+  "keywords": [
+    "canvas",
+    "fabricJS",
+    "webpack"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fabricjs/fabricjs-webpack"
+  },
+  "bugs": {
+    "url": "https://github.com/fabricjs/fabricjs-webpack/issues"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "node build.js modules=ALL requirejs exclude=gestures,accessors",
+  },
+  "devDependencies": {
+    "webpack": "4.7.x",
+    "fabric": "2.x",
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "main": "./dist/bundle.js"
+}

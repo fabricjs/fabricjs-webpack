@@ -1,17 +1,17 @@
 import { useEffect } from 'react'
-import reactLogo from './assets/react.svg'
-import fabric from 'fabric';
+import { Canvas } from 'fabric/dist/src/canvas/Canvas';
+import { Textbox } from 'fabric/dist/src/shapes/Textbox';
 import './App.css'
 
 function App() {
 
   useEffect(() => {
     const c = document.getElementById('c');
-    if (c.hasAttribute('data-fabric')) {
+    if (c!.hasAttribute('data-fabric')) {
       return;
     }
-    const fabricCanvas = new fabric.Canvas('c');
-    const text = new fabric.Textbox('Hello 6.0');
+    const fabricCanvas = new Canvas('c');
+    const text = new Textbox('Hello 6.0', {});
     fabricCanvas.add(text);
   }, []);
 

@@ -1,11 +1,11 @@
 {
-  "name": "fabric-vite-js-react",
+  "name": "fabric-react-vite",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "tsc && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -17,6 +17,8 @@
     "@types/react": "^18.0.26",
     "@types/react-dom": "^18.0.9",
     "@vitejs/plugin-react": "^3.0.0",
+    "rollup-plugin-visualizer": "^5.9.0",
+    "typescript": "^4.9.3",
     "vite": "^4.0.0"
   }
 }
